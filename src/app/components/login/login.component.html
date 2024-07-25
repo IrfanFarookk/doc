@@ -1,18 +1,18 @@
 <form [formGroup]="form">
-    <fieldset>
-        <legend>Login</legend>
+    <fieldset class="loginContainer">
+        <label style="margin-left: 15px;">Login</label>
         <div class="form-field">
-            <label>Email:</label>
-            <input name="email" formControlName="email">
+            <label><b>Username</b></label>
+            <input name="email" formControlName="email" required placeholder="Enter your username">
         </div>
         <div class="form-field">
-            <label>Password:</label>
+            <label><b>Password</b></label>
             <input name="password" formControlName="password" 
-                   type="password">
+                   type="password" required placeholder="Enter password">
+        </div>
+        <div class="form-buttons">
+            <button class="button button-primary" 
+                    (click)="login()">Login</button>
         </div>
     </fieldset>
-    <div class="form-buttons">
-        <button class="button button-primary" 
-                (click)="login()">Login</button>
-    </div>
 </form>

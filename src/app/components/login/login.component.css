@@ -1,0 +1,55 @@
+.loginContainer{
+    margin: auto;
+    border: none;
+    height: 250px;
+    background-color: #DFDFDF;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.userDetailsContainer{
+    padding-bottom : 50px;
+}
+
+.title{
+    background-color: #DFDFDF;
+    color:#364395;
+    padding-top: 5px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.form-field{
+    padding: 10px 0px 15px 15px;
+}
+
+input{
+    width: 285px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.button-primary{
+    float: left;
+    margin-right: 20px;
+}
+
+.createContainer{
+    margin-left: 15px;
+}
+
+.createButton{
+    float: right;
+    margin-right: 15px;
+    position: relative;
+    bottom: 40px;
+}
+
+button{
+    background-color: #364395;
+    border:none ;
+    color: white;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
